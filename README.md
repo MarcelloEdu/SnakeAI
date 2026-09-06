@@ -56,7 +56,9 @@ Ao redor de 30 pontos, o gráfico de aprendizado costuma estabilizar (log n). Is
 O modelo atual esbarra em um limite ao redor de 30 pontos porque a visão da cobra é limitada (seus 11 sensores olham apenas um quadrado de distância). Ela age como um algoritmo guloso e, ao crescer, acaba se encurralando no próprio corpo por não ter visão global do tabuleiro.
 
 * **Como este é meu primeiro projeto em ML, mapeei as soluções abaixo como opçÕes para o futuro:**
+
 *Visão Computacional:* Em vez de 11 sensores locais, o estado passaria a ser a matriz completa do jogo (como uma imagem). A rede aprenderia padrões espaciais complexos para não se enrolar, mas exigirá aprender a lidar com um alto custo computacional($).
+
 *Busca + ML:* Unir algoritmos de caminho (como Backtracking) com Redes Neurais. O objetivo seria estudar Monte Carlo Tree Search (MCTS) para simular o futuro em uma árvore de decisão e usar a IA para "podar" os caminhos ruins, planejando rotas de fuga.
 ---
 
@@ -92,4 +94,3 @@ python main.py
 ```
 
 *O modelo salvará os melhores pesos automaticamente na pasta `/model/model.pth` sempre que bater um novo recorde.*
-```
