@@ -3,7 +3,7 @@
 Este repositório contém o meu primeiro projeto prático explorando o mundo do **Machine Learning**. O objetivo foi ensinar um computador a jogar o clássico "Jogo da Cobrinha" (Snake) do zero, sem programar nenhuma regra de "como vencer". Em vez disso, a máquina aprende sozinha através de tentativa e erro usando **Aprendizado por Reforço**.
 
 <p align="center">
-    <img src = "assets/learning.MOV">
+    <img src = "assets/learning.gif">
 </p>
 
 ---
